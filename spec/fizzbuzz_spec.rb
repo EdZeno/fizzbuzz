@@ -23,3 +23,10 @@ describe "fizzbuzz" do
         expect(fizzbuzz(2)).to eq 2
     end 
 end 
+
+describe "fizzbuzz" do 
+    it "tests input if it is an integer" do 
+        expect(fizzbuzz("3")).to eq "please enter an integer"
+    end 
+end 
+
