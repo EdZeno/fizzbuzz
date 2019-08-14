@@ -17,3 +17,9 @@ describe "fizzbuzz" do
         expect(fizzbuzz(15)).to eq"fizzbuzz"
     end 
 end 
+
+describe "fizzbuzz" do
+    it "returns number if it is not devisible by 3 or 5" do 
+        expect(fizzbuzz(2)).to eq 2
+    end 
+end 
